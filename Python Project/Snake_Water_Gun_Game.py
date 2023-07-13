@@ -1,4 +1,4 @@
-# # Poject-1 : Snake_Water and Gun_Game:
+# # Poject-3 : Snake_Water and Gun_Game:
 
 import random
 
