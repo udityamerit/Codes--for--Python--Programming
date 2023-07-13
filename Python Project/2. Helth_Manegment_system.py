@@ -1,6 +1,6 @@
-#  Project-2:  on  Helth Management system:
+#  Project  on  Helth Management system:
 
-#  Important instructions  ===> First make all the file which is used in the programming : 
+#  Important instruction is ===> First make all the file which is used in the programming : 
 
 
 print("WELCOME TO THE HELTH MANAGEMENT SYSTEM :\n")
@@ -10,6 +10,7 @@ def Harry():
     f= open("Harry.txt", "r+")
     name = str(input("Enter your name: \n"))
     f.write(name)
+    print("Successfully added")
 
     f.close()
 
@@ -18,6 +19,7 @@ def Rohan():
     f= open("Rohan.txt", "r+")
     name = str(input("Enter your name: \n"))
     f.write(name)
+    print("Successfully added")
 
     f.close()
 
@@ -27,6 +29,7 @@ def Harry_Exercise():
     exe = str(input(" You are in Harry_Exercise file:\n  Please Enter your exersice do you want to practice : \n"))
     f.write("\n")
     f.write(exe)
+    print("Successfully added")
 
     f.close()
 
@@ -36,6 +39,7 @@ def Rohan_Exercise():
     exe = str(input(" You are in Rohan_Exercise file:\n Please Enter your exersice do you want to practice : \n"))
     f.write("\n")
     f.write(exe)
+    print("Successfully added")
 
     f.close()
 
@@ -45,6 +49,7 @@ def Harry_Diet():
     diet = str(input(" You are in Harry_Diet file:\n  Please Enter your diet do you want to eat for fit your body: \n"))
     f.write("\n")
     f.write(diet)
+    print("Successfully added")
 
     f.close()
 
@@ -54,6 +59,7 @@ def Rohan_Diet():
     diet = str(input(" You are in Rohan_Diet file: \n  Please Enter your diet do you want to eat for fit your body : \n"))
     f.write("\n")
     f.write(diet)
+    print("Successfully added")
 
     f.close()
 
