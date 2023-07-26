@@ -5,7 +5,7 @@ def func1():
     print("Number of floors is : 21")
     user_floor = input("Press 0 to open the door:")
     current_floor = 0
-    difference = (user_floor) - (current_floor)
+    difference = int(user_floor) - int(current_floor)
     if difference == 0:
         print("Opening the door:")
         print("Enter the floor number:")
