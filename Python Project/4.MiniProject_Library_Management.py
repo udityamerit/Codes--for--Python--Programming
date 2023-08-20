@@ -1,4 +1,5 @@
-'''Project to make a library Management system'''
+'''Project to make a library Management system
+Using OOPs '''
 
 class Library:
 #     list1 = ["C","C++","Python","Java","Math","Physics"]
