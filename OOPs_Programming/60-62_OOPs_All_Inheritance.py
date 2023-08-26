@@ -134,8 +134,8 @@ class Phone:
 
     def full_detail(self):
             return f" Name is: {self.name} \n\
-                modle name is: {self.modle} \n \
-                        Price is: {self.price} rs."
+        modle name is: {self.modle} \n \
+         Price is: {self.price} rs."
         
 class Smartphone(Phone):
     def __init__(self, name, modle, price,life,capacity):

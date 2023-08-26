@@ -1,5 +1,5 @@
 class Employee1:
-    no_of_leaves = 8 # this is the class variable:
+    no_of_leaves = 8 # this is the class variable/class attribute:
     def __init__(self, aname, aId) :
         self.name= aname
         self.Id = aId
@@ -8,14 +8,14 @@ class Employee1:
         return f"Name is {self.name} Id is {self.Id}"
     
     
-    @classmethod
+    @classmethod   
     def change_leaves(cls,newleaves):
 
         cls.no_of_leaves = newleaves
 
 
-harry = Employee1("harray",34)
-rohan = Employee1("rahan",45)
-harry.change_leaves(34)
+h = Employee1("harray",34)
+r = Employee1("rahan",45)
+h.change_leaves(34)
 
-print(harry.no_of_leaves)
+print(Employee1.no_of_leaves)

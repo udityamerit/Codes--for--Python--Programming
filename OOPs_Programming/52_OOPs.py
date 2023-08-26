@@ -22,3 +22,7 @@ com1 = computer()
 
 computer.config()
 com1.config()
+
+'''Class ==> Phone
+   Object ==> Companies
+    Attributes ==> featuers in phone'''

@@ -73,3 +73,5 @@ f.close()
 with open ("anuj1.txt") as f:
     a = f.read()
     print(a)
+
+    
