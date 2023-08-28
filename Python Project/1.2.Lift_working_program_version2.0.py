@@ -18,7 +18,7 @@ def func1():
         difference > 0
         print("Opening the door:")
         print("Closing the Door:")
-        print(" ")
+        print(" ") 
         print( "Going up to :" + str(user_floor)) 
         print(" ")
         

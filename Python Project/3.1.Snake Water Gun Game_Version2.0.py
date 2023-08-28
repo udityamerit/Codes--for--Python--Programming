@@ -12,9 +12,9 @@ User = []
 draw = []
 
 def game(num, user):
-    a = "Match is draw"
-    b = "computer won the game"
-    c = "You won the game"
+    a = "==>Match is draw<=="
+    b = "==>computer won the game<=="
+    c = "==>You won the game<=="
 
     if user >2:
         print("You entered the invalid input:\n Please enter the valid input:") 
