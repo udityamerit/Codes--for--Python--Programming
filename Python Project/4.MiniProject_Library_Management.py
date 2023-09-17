@@ -1,5 +1,5 @@
 '''Project to make a library Management system'''
-
+# import storebook.txt
 class Library:
 #     list1 = ["C","C++","Python","Java","Math","Physics"]
     def __init__(self):
@@ -13,6 +13,8 @@ class Library:
 
 
     def add_book(self):
+      #   f = open("store book.txt","x")
+       
         n = int(input("Enter the number of books do you want to add in Library: "))
         i = 0
         while(i<n):   
@@ -21,9 +23,14 @@ class Library:
          i = i+1
 
         print("Book is added...")
+        f = open("store book.txt","r+")
+        f.write(f"Your stored book in libraries :\n {self.list2}")
+        f.close()
         return f"List of books in your library: {self.list2}"
     
     def lend_book(self):
+      #   f = open("lend_book.txt","x")
+        
         n = int(input("Enter the number of books do you want to buy:"))
         i = 0
         while(i<n):   
@@ -36,8 +43,11 @@ class Library:
              while(i<n):
                 print( f"You bought the {self.buy} book")
                 self.list2.remove(element)
-                i= i+1
+                i= i+1 
                 print(f"List of books in your library: {self.list2}")
+                f = open("lend_book.txt","r+")
+                f.write(f" Your bought the book: \n{element}")
+                f.close()
              break
         else:
             print("This Book is not present in the library: ")

@@ -1,8 +1,7 @@
 
-# Snake Water Gun Game:
+# Snake Water Gun Game for beginner:
 
 import random
-
 
 
 print("Welcome to Snack-Water and Gun game: ")
