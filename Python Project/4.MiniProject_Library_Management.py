@@ -13,7 +13,7 @@ class Library:
 
 
     def add_book(self):
-      #   f = open("store book.txt","x")
+      #   f = open("store book.txt","x") 
        
         n = int(input("Enter the number of books do you want to add in Library: "))
         i = 0
@@ -42,7 +42,7 @@ class Library:
              i = 0
              while(i<n):
                 print( f"You bought the {self.buy} book")
-                self.list2.remove(element)
+                self.list2.pop(element)
                 i= i+1 
                 print(f"List of books in your library: {self.list2}")
                 f = open("lend_book.txt","r+")

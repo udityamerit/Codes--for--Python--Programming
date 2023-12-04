@@ -1,3 +1,5 @@
+# Making a LIFT WORKING PROGRAM;
+
 import time
 
 def func1():
@@ -7,7 +9,7 @@ def func1():
     print(" ")
     difference = int(user_floor) - int(current_floor)
     if current_floor == 0:
-        print("Opening the Door:")
+        print("Opening the  Door:")
         print("Closing the Door:")
         i = 1
         while i < user_floor:

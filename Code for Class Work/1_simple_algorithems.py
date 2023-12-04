@@ -1,31 +1,18 @@
-# add the digits of a number:
+def out(a,b):
+        def iner(c,d):
+                return c+d
+        return iner(a,b)
 
-n =  int(input("Enter the number: "))
-sum = 0
-r = n % 10
-p = int(n/10)
-r1 = p % 10
-q = int(p/10)
-r2 = q % 10
-sum = r+r1+r2
-print(int(sum))
+res = out(5,10)
+print(res)
 
+def dis(**kwargs):
+        for i in kwargs:
+                print(i)
 
-# Reverse the given number
+dis(emp = "kelly", salary = 9000)
 
-m = int(input("Enter the number:"))
-sum = 0
-r = m % 10
-p = r*100
-print(p)
-q = int(m/10)
-r1 = q % 10
-t = r1*10
-print(t)
-z = int(q/10)
-r2 = z % 10
-s = r2*1
-print(s)
-sum =int(p+t+s)
-print("Your reversed number is: ",sum)
-
+def fun1(num):
+        return num+ 25
+fun1(5)
+print(num)
