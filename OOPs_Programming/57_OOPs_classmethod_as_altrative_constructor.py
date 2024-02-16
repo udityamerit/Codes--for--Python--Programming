@@ -15,9 +15,10 @@ class Employee2:
 
     @classmethod
     def from_string(cls, string):
-        param = string.split("-")
+        param = string.split("-") #.split("-") is used to split the string where "-" this occures
+
         # return cls(param[0],param[1])
-        return cls(*string.split("-"))
+        return cls(*string.split("-")) #here *string.split("-") is used to take the whole string and split it and store in the list name is  param and show the istances
 
 
 harry = Employee2("harray",34)

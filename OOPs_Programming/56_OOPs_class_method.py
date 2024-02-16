@@ -8,7 +8,7 @@ class Employee1:
         return f"Name is {self.name} Id is {self.Id}"
     
     
-    @classmethod   
+    @classmethod   #this method is used to take a class and change his class instances  of variable at the place of the object variables 
     def change_leaves(cls,newleaves):
 
         cls.no_of_leaves = newleaves

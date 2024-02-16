@@ -30,7 +30,7 @@ print(e.fulldetail())
 
 p = programmar("Uditya",777,"Programmar",["Python"])
 print(p.printprog())
-
+ 
 #----------------------------------------------------------#
 
 # 61: Multiple Inheritance;
