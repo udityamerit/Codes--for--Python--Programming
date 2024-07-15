@@ -56,20 +56,19 @@ class Uditya_Library:
                 f.close()
 
         def lend_book(self):
-                f = open("71.3_lend_book.txt",'r+')
-                m = int(input("Please enter the no of books do you want to buy: ")) 
-                i = 1
-                while i<=m:
-                        self.buy_book = input("Enter the book- name which you want to buy from the library: ") 
-                        for books in self.book_list: 
-                                if   (books == self.buy_book):
-                                        self.book_list.remove(self.buy_book)
-                                
-                        i = i + 1
-                # f = open('71.1_Store_book.txt', "r+")
-                # f.write(self.book_list.remove(self.buy_book))
-                f.write(f"Books which is lend by the student: {self.buy_book}")
-                f.close()
+                m = int(input("Please enter the number of books you want to borrow: "))
+                borrowed_books = []
+
+                for i in range(1, m + 1):
+                        buy_book = input(f"Enter the book name which you want to borrow from the library: ")
+                        if buy_book in self.book_list:
+                                self.book_list.remove(buy_book)
+                                borrowed_books.append(buy_book)
+                        else:
+                                print(f"The book '{buy_book}' is not available in the library.")
+
+                        with open("71.3_lend_book.txt", 'w') as f:
+                                f.write(f"Books lent by the student: {borrowed_books}\n")
 
         def return_book(self):
                 pass          

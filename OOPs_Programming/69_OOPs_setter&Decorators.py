@@ -32,7 +32,7 @@ np = Employee("nikhil", "raj")
 
 hs.fname = "US"
 print(hs.email)
-#"Note: Constractor is run at the time od object creation"
+#"Note: Constractor is run at the time on object creation"
 
 hs.email = "this.that@gmail.com"
 print(hs.fname)
