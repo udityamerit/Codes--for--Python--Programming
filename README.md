@@ -1,4 +1,4 @@
-```markdown
+
 # Python Programming
 
 This repository contains Python scripts, projects, and tools that cover a variety of Python programming concepts, libraries, and applications.
