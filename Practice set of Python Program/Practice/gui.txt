@@ -4,4 +4,6 @@ name: PY_VAR0
  mobile no: PY_VAR1
  Price: PY_VAR2name: PY_VAR0
  mobile no: PY_VAR1
+ Price: PY_VAR2name: PY_VAR0
+ mobile no: PY_VAR1
  Price: PY_VAR2
